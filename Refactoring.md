@@ -10,7 +10,4 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
 ## Your Explanation Here - Richard Husey, chrisgogo68@gmail.com
 
-My version of the deterministicPartitionKey function is more readable than the original because I have split the code into specific blocks which can easily help the reader identify what that particular code is meant to do and why. 
-I also replaced the if-else if-else condition to a ternary operator for better readability. 
-Furthermore, I consolidated all of the computations involving the crypto module into one cryptographic hash evaluated with the SHA3-512 algorithm.
- This makes the function cleaner and easier to understand, as the reader no longer has to track the process of two separate hash evaluations.
+My refactored version uses ES6 best practices, such as declaring the constant variable at the top to improve readability and using implicit variable declaration and variable reassignment to reduce the number of lines of code. Furthermore, I have included an if statement to check the value of the parameter is not a string datatype and modified the existing if statement to include evaluation for the string length, thus improving the code readability by both cutting down the lines of code and the amount of nested statements. To summarise, my refactored version is more readable than the original as it utilises fewer lines of code and reduces the need for excessive comparison and nested statements.
